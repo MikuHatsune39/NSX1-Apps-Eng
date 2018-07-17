@@ -1,0 +1,496 @@
+﻿/*
+=============================================
+[c!]COLORS -Think Innovation!-
+http://www.colors.gr.jp/
+info@colors.gr.jp
+(C)2005 COLORS Co.,Ltd. All Rights Reserved.
+--
+Author: MIKI @ COLORS! Coding Division
+Version: 2006-09-17
+---------------------------------------------
+
+File Name : magazine.css
+
+=============================================
+*/
+
+h2.description {
+	color:#000000;
+}
+
+h3,h4 {
+	font-size: 80%;
+	line-height:1.4;
+}
+
+.backlist {
+	width:532px;
+	padding:0 0 1px 0;
+	background:#FFFFFF url("../common/img/dotbdr3.gif") repeat-x bottom;
+}
+
+.bgBr {
+	background-color:#C9A35A;
+}
+
+
+.btmLine1pxGrBK {
+	border-bottom:1px solid #72706D;
+}
+
+.mov_btnbox {
+	margin-top:136px;
+}
+
+/* ====================
+Table border
+==================== */
+td.titleTop p,
+td.contTop1 p,
+td.contTop2 p,
+td.title p,
+td.cont1 p,
+td.cont2 p,
+td.titleBtm p,
+td.contbtm1 p,
+td.contbtm2 p {
+	margin:5px;
+}
+
+
+
+td.titleTop {
+	border-top:1px solid #9D9B96;
+	border-left:1px solid #9D9B96;
+	background-color:#CEDCF0;
+}
+
+td.contTop1 {
+	border-top:1px solid #9D9B96;
+	border-left:1px solid #9D9B96;
+	background-color:#CEDCF0;
+}
+
+td.contTop2 {
+	border-top:1px solid #9D9B96;
+	border-right:1px solid #9D9B96;
+	border-left:1px solid #9D9B96;
+	background-color:#CEDCF0;
+}
+
+td.title {
+	border-left:1px solid #9D9B96;
+	border-top:1px solid #9D9B96;
+	background-color:#E9E6E1;
+}
+
+td.cont1 {
+	border-left:1px solid #9D9B96;
+	border-top:1px solid #9D9B96;
+	background-color:#FFFFFF;
+}
+
+td.cont2 {
+	border-left:1px solid #9D9B96;
+	border-right:1px solid #9D9B96;
+	border-top:1px solid #9D9B96;
+	background-color:#FFFFFF;
+}
+
+td.titleBtm {
+	border-left:1px solid #9D9B96;
+	border-top:1px solid #9D9B96;
+	border-bottom:1px solid #9D9B96;
+	background-color:#E9E6E1;
+}
+
+td.contbtm1 {
+	border-left:1px solid #9D9B96;
+	border-top:1px solid #9D9B96;
+	border-bottom:1px solid #9D9B96;
+	background-color:#FFFFFF;
+}
+
+td.contbtm2 {
+	border-top:1px solid #9D9B96;
+	border-bottom:1px solid #9D9B96;
+	border-right:1px solid #9D9B96;
+	border-left:1px solid #9D9B96;
+	background-color:#FFFFFF;
+}
+
+
+
+
+/* ====================
+BOOK annex
+==================== */
+.bganGr {
+	background-color:#1CB606;
+}
+
+/* ====================
+BOOK contents
+==================== */
+.fsCts {
+	font-size:70%;
+	line-height:1.2;
+	font-weight:normal;
+	margin:7px 0px;
+	
+}
+
+.fsCts span.CtsBold {
+	font-size:115%;
+	font-weight:bold;
+	line-height:1.2;
+}
+
+
+/* ====================
+Description
+==================== */
+.decheadBG{
+	color:#B38937;
+	font-weight:bold;
+	padding:2px 0 2px 10px;
+	margin-bottom:15px;
+	background-color:#EFE3CD;
+}
+
+.decheadBG h2{
+	color:#000000;
+	font-size:80%;
+}
+
+.deccontMg{
+	padding:10px 0 0 10px;
+}
+
+.fcBr {
+	color:#C9A35A;
+}
+
+.fcBrD {
+	color:#B38937;
+	font-weight:bold;
+}
+
+.t5Mgl22Mg{
+	margin:5px 0 0 20px;
+}
+/* ====================
+vol14号補足説明頁
+==================== */
+.decheadOR{
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:2px 0 2px 10px;
+	margin-bottom:15px;
+	background-color:#FF6600;
+}
+
+.decheadOR h2{
+	color:#FFFFFF;
+	font-size:80%;
+}
+
+.orange {
+	color:#FF6600;
+	font-weight: bold;
+}
+
+.red{
+	color:#F00;
+}
+
+.fsCts70 {
+	font-size:70%;
+	line-height:1.2;
+	font-weight:normal;
+	margin:5px;
+}
+/* ====================
+vol15号補足説明頁
+==================== */
+td.film {
+	border-right :1px solid #000000;
+	border-bottom :1px solid #000000;
+	background: url("../magazine/vol15/img/bg_film.gif") repeat-x bottom;
+}
+td.filmmake {
+	background: url("../magazine/vol15/img/sim12.gif") no-repeat top;
+	height :215px
+}
+p.exp01 {
+	margin :5px 0px 10px 230px 
+}
+p.exp02 {
+	margin :90px 200px 0px 5px 
+}
+p.exp03 {
+	background: url("../magazine/vol15/img/sim13.gif") no-repeat left top;
+	margin :20px 10px 0px 150px ;
+	padding-left : 30px ;
+}
+
+dl {
+	font-size: 80%;
+	line-height:1.4;
+}
+dt {
+	color:#FF6600;
+	font-weight :bold ;
+}
+dd {
+	margin-left :0;
+}
+
+/* ====================
+vol16号補足説明頁
+==================== */
+
+table#trouble h3{
+	border-bottom:1px solid #9CBE29;
+	margin-top:15px;
+	margin-bottom:5px;
+	color:#9CBE29;
+}
+/* ====================
+vol17インデックス説明頁
+==================== */
+td.mimg07 ｛
+	background: url("../magazine/vol17/img/bg_mimg07.gif") no-repeat;
+	background-position:left top;
+	width :243px ;
+	color:#ff0000
+}
+/* ====================
+vol18インデックス説明頁
+==================== */
+
+td.mag18main {
+	background: url("../magazine/vol18/img/bg_anex1_2.jpg") no-repeat;
+	background-position:left top;
+	width :534px ;
+	height:165px;
+}
+p.mag18lead {
+	margin-left:160px;
+	padding-right:40px;
+	margin-top :7px
+}
+p.mag18lead2 {
+	margin-left:30px;
+	padding-right:30px;
+	margin-top :7px
+}
+td.mag18main2 {
+	background: url("../magazine/vol18/img/bg_anex1_3.jpg") no-repeat;
+	background-position:left top;
+	height:227px;
+}
+td.mag18main3 {
+	background: url("../magazine/vol18/img/bg_anex1_5.jpg") no-repeat;
+	background-position:left top;
+	height:227px;
+}
+td.mag18mv {
+	background: #040b1b url("../magazine/vol18/img/bg_anex1_10.gif") no-repeat;
+	background-position:left bottom;
+}
+/* ====================
+vol19予告説明頁
+==================== */
+/* ====================
+vol20説明頁
+==================== */
+td.exp {
+	background:#000000;
+}
+p.com {
+	color:#ffffff;
+}
+div.main {
+	margin:150px 5px 0 20px;
+}
+
+div.main p {
+	color:#ffffff;
+}
+
+/* ====================
+vol21予告説明頁
+==================== */
+p#main21_1 {
+	padding:15px 190px 0 15px;
+	margin:0;
+	
+}
+
+p#main21_2 {
+	padding:0 200px 0 15px;
+	margin:0;
+}
+
+/* ====================
+spacial2イベント説明頁
+==================== */
+ul li{
+	list-style-type:disc;
+	margin-left:2.0em;
+	font-size:80%;
+}
+ol {
+	background:#fbefd7;
+	padding:10px;
+	line-height:140%;
+}
+
+ol li{
+	margin-left:3.0em;
+	margin-bottom:0.5em;
+	font-size:80%;
+}
+
+li.fsz{
+    font-size:1em;
+}	
+
+/* ====================
+vol24予告説明頁
+==================== */
+td.micro1{
+	background:url(../magazine/vol24/img/annex1_3.gif) no-repeat top left;
+	width:555px;
+	height:76px;
+}
+td.micro1 p{
+	color:#FFFFFF;
+	text-align:center;
+}
+td.micro2{
+	background:url(../magazine/vol24/img/annex1_5.gif) no-repeat top left;
+	width:555px;
+	height:222px;
+}
+td.micro2 p{
+	margin:20px 0 0 50px;
+	padding:0;
+	width:450px;
+	color:#FFFFFF;
+	text-align:left;
+}
+/* ====================
+Anchor Style
+==================== */
+.backlist a {
+	color:#000000;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.backlist a:link {
+	color:#000000;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.backlist a:visited {
+	color:#000000;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.backlist a:hover {
+	color:#ED9700;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+/* ====================
+Margin
+==================== */
+
+.t3Mg {
+	margin:3px 0 0 0;
+}
+
+.t17Mg {
+	margin:17px 0 0 0;
+}
+
+.t27Mg {
+	margin:27px 0 0 0;
+}
+
+.t35Mg {
+	margin:35px 0 0 0;
+}
+
+.tb6Mg {
+	margin:6px 0 6px 0;
+}
+
+.l15Mg {
+	margin:0 0 0 15px;
+}
+
+.tl15Mg {
+	margin:15px 0 0 15px;
+}
+.tl10Mg {
+	margin:10px 0 0 10px;
+}
+
+.l176Mg {
+	margin:0 0 0 176px;
+}
+.b20l48Mg {
+	margin:0 0 20px 48px;
+}
+
+.t23b20Mg {
+	margin:23px 0 20px 0;
+}
+
+.b50Mg {
+	margin:0 0 50px 0;
+}
+
+.all5Mg {
+	margin:5px;
+}
+
+.trl5Mg {
+    margin:5px 5px 0 5px;
+}	
+
+/* ====================
+SW_contest
+==================== */
+.bgCnGld {
+	background-color:#F0D74C;
+}
+
+.bgCnSlv {
+	background-color:#CFCFCF;
+}
+
+.bgCnCpr {
+	background-color:#E09C7B;
+}
+
+
+/*vol20*/
+table.table01 td{
+	padding:30px 0 30px 0;
+}
+/*vol33*/
+table.table02 td{
+	padding:25px 0 25px 0;
+}
+/*plus01*/
+table#index_plus01{
+	margin:20px 18px 0 0;
+}

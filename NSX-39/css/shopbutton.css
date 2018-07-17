@@ -1,0 +1,98 @@
+﻿/* ====================
+オンラインショップ購入ボタン
+==================== */
+html, body{
+	height: 100%;
+	margin: 0px;
+}
+
+#glayLayer{
+	/* background: transparent; */
+	background: #ccc;
+	cursor: pointer;
+	display: none;
+	filter: alpha(opacity=0);
+	left: 0;
+	height: 100%;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+* html #glayLayer{ position: absolute; }
+
+p#shop-gk, 
+dl#shop-list {
+	float: right;
+}
+
+dl#shop-list {
+	margin: 0 0 0 1em;
+	/* overflow: hidden; */
+	position: relative;
+	width: 191px;
+	z-index: 2;
+}
+
+dl#shop-list dt {
+	height: 32px;
+}
+
+dl#shop-list dd {
+	background: url('../common/img/shop-list_dd_bg.gif') left top no-repeat transparent;
+	display: none;
+	height: 29px;
+	text-indent: -9999px;
+	width: 168px;
+	z-index: 3;
+}
+
+dl#shop-list dd a {
+	display: block;
+	font-size: 0;
+	height: 29px;
+	width: 168px;
+}
+
+dl#shop-list dd#cls a {
+	height: 17px;
+}
+
+dl#shop-list dd#amazon {
+	background-position: 0px 0;
+	left: 0;
+	position: absolute;
+	top: 32px;
+}
+
+dl#shop-list dd#seven {
+	background-position: 0px -29px;
+	left: 0;
+	position: absolute;
+	top: 61px;
+}
+
+dl#shop-list dd#rakuten {
+	background-position: 0px -58px;
+	left: 0;
+	position: absolute;
+	top: 90px;
+}
+
+dl#shop-list dd#cls {
+	background-position: 0px -87px;
+	left: 0;
+	position: absolute;
+	top: 119px;
+	z-index: 4;
+}
+
+dl#shop-list dd a:hover {
+	background: url('../common/img/shop-list_dd_bg_on.gif') left top no-repeat transparent;
+}
+
+dl#shop-list dd#seven a:hover { background-position: 0px -29px; }
+dl#shop-list dd#rakuten a:hover { background-position: 0px -58px; }
+dl#shop-list dd#cls a:hover { background-position: 0px -87px; }
+

@@ -1,0 +1,218 @@
+﻿div.detail {
+	width:575px;
+	text-align:left
+}
+div.detail p.lead {
+	width:540px;
+	margin:10px 0 15px 25px;
+}
+div.detail p.btn{
+	margin:20px 0 40px 0;
+	text-align:center;
+}
+div.detail p.btn img.spc{
+	margin-right:5px;
+}
+div.detail p.exp {
+	width:550px;
+	margin:10px 0 15px 15px;
+}
+
+h2 {
+	font-size:110%;
+	margin-top:10px;
+}
+h2.span {
+	font-size:100%;
+}
+/*mov*/
+
+div.detail ul#mov{
+	margin:20px 0 40px 0;
+	text-align:center;
+}
+div.detail ul#mov li{
+	list-style-type:none;
+}
+div.detail ul#mov li.tube{
+	float:left;	
+}
+div.detail ul#mov li img{
+	margin-bottom:1em;
+}
+div.detail ul#mov li img.spc{
+	margin-right:20px;
+}
+.al_c{ text-align:center;}
+/*app*/
+ul li.navi{
+	float:left;
+	margin:0;
+	list-style-type:none;
+}
+
+div.detail .box{
+	background:url(../img/box_bg.gif) bottom left repeat-y;
+	margin:0 0 10px 0;
+	width:534px;
+	overflow: hidden;
+}
+div.detail .box p{
+	margin-bottom:1em;
+}
+div.detail .box .app_btn{
+	padding:20px 0 10px 179px;
+}
+div.detail .box p.txt{
+	margin:0;
+	padding:10px 15px 0 15px;
+}
+div.detail .box p.txt_last{
+	margin:0;
+	padding:10px 15px 30px 15px;
+	font-size:80%;
+}
+div.detail .box .top{
+	background:none;
+	margin:0;
+}
+div.detail .box .lft{
+	float:left;
+	width:245px;
+	padding:10px 0 10px 15px;
+}
+div.detail .box .rgt{
+	float:right;
+	width:249px;
+	padding:10px 15px 10px 0;
+}
+div.detail .box .env{
+	padding:10px 0 10px 15px;
+}
+div.detail .box .conf{
+	clear: both;
+	padding:0 10px 10px 15px;
+}
+
+.goto a{
+	float:right;
+	margin: 0 40px 1em 0;
+	font-size:80%;
+	color:#418BCC
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div.box.clearfix dl {
+	clear: both;
+	margin: 0;
+	padding: 0 15px 20px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div.box.clearfix dl dt {
+	color: #000;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div.box.clearfix dl dd {
+	margin: 0.5em 0 0 0;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header {
+	clear: both;
+	height: 39px;
+	overflow: hidden;
+	padding: 0 0 5px;
+	position: relative;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul {
+	height: 39px;
+	left: 85px;
+	position: absolute;
+	top: 0;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li, 
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li a {
+	background: url('../img/box1-header_li.jpg') no-repeat transparent;
+	display: block;
+	float: left;
+	height: 39px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list1 {
+	background-position: 0 -39px;
+	width: 125px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list2 {
+	background-position: -125px -39px;
+	width: 150px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list3 {
+	background-position: -275px -39px;
+	width: 125px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list1 a {
+	background-position: 0 0;
+	width: 125px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list2 a {
+	background-position: -125px 0;
+	width: 150px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list3 a {
+	background-position: -275px 0;
+	width: 125px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list1 a:hover {
+	background-position: 0 -78px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list2 a:hover {
+	background-position: -125px -78px;
+}
+
+html body div#container div#contents table tbody tr td.main div.detail div#box1-header ul li.box1-header-list3 a:hover {
+	background-position: -275px -78px;
+}
+
+
+/*book*/
+p#lead{
+	color:#666;
+	font-size:1em;
+	font-weight:bold;
+	padding:0 0 5px 20px;
+}
+table#cont{
+	background-color:#e2007e;
+}
+table#table_book td{
+	padding:0 0 30px 0;
+}
+table#table_book td p a{
+	color:#FCF;
+}
+table#table_book2 td{
+	padding:0 0 40px 0;
+}
+.b10Mg{
+	margin-bottom:10px;
+}
+.fff{
+	color:#FFF;
+}
