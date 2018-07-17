@@ -1,4 +1,4 @@
-# Fork of hummtaru's NSX1-Apps-Eng [Main Page](https://hummtaro.github.io/NSX1-Apps-Eng/) ment to be put on a raspberry pi server
+# Fork of hummtaru's NSX1-Apps-Eng [hummtaru's NSX1-Apps-Eng Main Page](https://hummtaro.github.io/NSX1-Apps-Eng/) meant to be put on a raspberry pi server
 
  * * *
 
